@@ -18,7 +18,7 @@ Key metrics include:
 - Actual Shipped %
 - Total Number of Items
 
-![Export Shipment Dashboard](5ccccadd-276e-49c0-97d1-12988429630d.png)
+![Export Shipment Dashboard](exportShipment.png)
 
 ## Shipment Analysis
 
@@ -49,3 +49,9 @@ Product filters allow users to select specific product categories and review the
 For this project, I prepared and transformed the shipment data and created the calculations needed to track actual shipments against contracted quantities.
 
 I also designed the dashboard and product filters to make it easier to review shipment progress at both overall and item level.
+
+## Power BI File
+
+The Power BI project file is available in this repository:
+
+[View Power BI File](Royal%20Herbs.pbix)
