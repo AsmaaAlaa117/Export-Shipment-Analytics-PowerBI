@@ -4,11 +4,11 @@
 
 This project focuses on tracking export shipment progress using Power BI.
 
-I built the dashboard to compare contracted quantities with actual shipped quantities and remaining quantities, making it easier to track shipment progress across different products and items.
+I built this dashboard to track contracted quantities, actual shipped quantities, and remaining quantities across different products and items. The main purpose is to provide a clear view of shipment progress and make it easier to identify items that are completed, partially shipped, or still pending.
 
 ## Dashboard Overview
 
-The dashboard provides a summary of shipment performance and allows users to filter the analysis by product.
+The dashboard provides an overall view of export shipment performance.
 
 Key metrics include:
 
@@ -18,22 +18,22 @@ Key metrics include:
 - Actual Shipped %
 - Total Number of Items
 
-![Export Shipment Dashboard](exportShipment.png)
+![Export Shipment Dashboard](exportShiptment.png)
 
 ## Shipment Analysis
 
-The dashboard provides item-level analysis to compare contracted quantities with actual shipments.
+The dashboard provides a detailed comparison between contracted and shipped quantities at item level.
 
 The analysis includes:
 
 - Contract quantity by item
 - Actual shipped quantity by item
-- Remaining quantity by item
-- Shipment completion percentage
+- Remaining quantity
+- Actual shipped percentage
 - Shipped vs. remaining quantities
 - Overall shipment progress
 
-Product filters allow users to select specific product categories and review their shipment status separately.
+The product filters on the left side allow users to select a specific product category and review its shipment status separately.
 
 ## Tools Used
 
@@ -46,12 +46,14 @@ Product filters allow users to select specific product categories and review the
 
 ## What I Worked On
 
-For this project, I prepared and transformed the shipment data and created the calculations needed to track actual shipments against contracted quantities.
+I prepared and transformed the shipment data, built the required calculations, and designed the dashboard in Power BI.
 
-I also designed the dashboard and product filters to make it easier to review shipment progress at both overall and item level.
+I created measures to compare actual shipped quantities against contracted quantities and calculate the remaining quantities and shipment completion percentage.
+
+I also designed the product-level filtering and item-level analysis to make shipment tracking easier and more practical.
 
 ## Power BI File
 
-The Power BI project file is available in this repository:
+The Power BI file used for this project is included in the repository.
 
-[View Power BI File](Royal%20Herbs.pbix)
+[Open Power BI Project](Royal%20Herbs.pbix)
